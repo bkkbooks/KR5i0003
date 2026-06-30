@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0003/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0003/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始大洞玉經
+  date: '2015-08-29 17:48:01.799494'
+  source:
+    repository: kanripo
+    path: KR5i0003
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0003_001-CK-KZ.yaml, hash: 'sha256:df0c8323e6cb84b121be261e000d685922f3cbfe4f906252045c04187cafae1f'}
+  - {seq: 2, filename: KR5i0003_002-CK-KZ.yaml, hash: 'sha256:4188f1ea5463636117f7f3fd2a47594d289c22ebc3438d212e05a5d3400ef319'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0003_001-CK-KZ.markers.yaml, hash: 'sha256:01e2f127480c03673c81f2f822c45e8095c6b16a6c061acb23451af83420c441'}
+  - {seq: 2, role: markers, filename: assets/KR5i0003_002-CK-KZ.markers.yaml, hash: 'sha256:fa6697e063eb769d2ab05682b7bd6b78b6df2616326120d1c93b181ff9867680'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0003_01p001a
+    span:
+    - body
+    - 0
+    - 1350
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0003_02p001a
+    span:
+    - body
+    - 0
+    - 39286
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:56b4a4dab7b4399817d11c897c0005c8dae09d384b23ca997bb6358522d4d099
